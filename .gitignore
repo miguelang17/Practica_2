@@ -1,0 +1,25 @@
+# --- macOS ---
+# Metadatos de carpetas del Finder
+.DS_Store
+.DS_Store?
+# Archivos de recursos AppleDouble (p. ej. al copiar a USB o descomprimir zips)
+._*
+.AppleDouble
+.LSOverride
+Icon?
+# Carpetas del sistema en la raíz de volúmenes
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+# Carpetas de red (AFP)
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+# Restos al descomprimir zips creados en macOS
+__MACOSX/
