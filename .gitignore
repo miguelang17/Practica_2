@@ -23,3 +23,8 @@ Temporary Items
 .apdisk
 # Restos al descomprimir zips creados en macOS
 __MACOSX/
+
+# --- Python ---
+# Caché de bytecode generada al importar módulos
+__pycache__/
+*.pyc
