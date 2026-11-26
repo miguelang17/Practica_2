@@ -34,6 +34,9 @@ escribid esa frase.
 
 | Herramienta o servicio | Propósito | Ficheros o secciones afectados | Cómo se comprobó el resultado |
 |---|---|---|---|
+| Herramienta o servicio | Propósito | Ficheros o secciones afectados | Cómo se comprobó el resultado |
+|---|---|---|---|
+| Claude | Sugerencia de trabajar en escala logarítmica en el KNN de regresión local: ajustar la recta sobre log10(latencia) y deshacer con 10^ẑ, para que las predicciones sean positivas y coherentes con la métrica MAE_log.  | Ejercicio 5(a): texto con z_c = log10(ỹ_c) y ŷ = 10^ẑ. Celda final: definición de `modelo_final_latencia`. | Validamos el modelo final con la latencia en nanosegundos y la métrica oficial (`scorer_log`), y comprobamos que daba el mismo MAE_log que la validación en escala log (≈0.112 con K=30). Comprobamos que el `assert` de predicciones positivas pasa y que `comprobar_estimador` sigue dando "TODO CORRECTO". |
 | *(p. ej. Claude)* | *(p. ej. depurar un error de matplotlib)* | *(p. ej. Ejercicio 5(b), el método `fit`)* | *(p. ej. volvimos a ejecutar la celda y comprobamos que el caso particular coincide con `KNeighborsRegressor`)* |
 | | | | |
 
