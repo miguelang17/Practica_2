@@ -1,7 +1,7 @@
 # Declaración de uso de IA — Práctica 2
 
-**Grupo:** *(número)* · **Integrantes:** *(apellido 1)*, *(apellido 2)*, *(apellido 3)*, *(apellido 4)*
-**Fecha:** *(fecha de entrega)*
+**Grupo:** *4* · **Integrantes:** *Carlos Chapman Peña*, *Miguel Ángel Gordillo Masero*, *María Xiaolan Ríos Díaz*, *Pablo Sola Díaz*
+**Fecha:** *29/11/2026*
 
 ---
 
